@@ -20,7 +20,7 @@
   display: block;
 }
 .images{
-  height: 100%;
+  height: 750px;
   transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
 
@@ -114,10 +114,9 @@ ol{
   top: 0;
   right: 0;
   padding: 20px 0 0 0;
-  width: 210px;
 }
-.reasons > li:first-child, .reasons > li:nth-child(2){
-  width: 720px;
+.reason1, .reason2 {
+  width: 730px;
 }
 .survey-pic-container{
   display: flex;
@@ -165,6 +164,7 @@ font-weight: 300;
   display: flex;
   margin: 40px auto;
   justify-content: space-between;
+  column-gap: 100px;
 }
 .first-section {
   flex: 1.3;
