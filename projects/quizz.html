@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krayonnz quizzes</title>
+    <link rel="stylesheet" type="text/css" href="../css/quizz.css">
+    <link rel="stylesheet" type="text/css" href="../css/comman.css">
+    <link rel="icon" href="./images/logo.svg" type="png">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300&display=swap"
+    rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QFN1QYDPMN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-QFN1QYDPMN');
+  </script>
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "hk8liex5x4");
+</script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+			<a href="/" class="logo">
+				<img src="../new images/project 1/logo2.svg">
+			</a>
+      <div class="hamburger">
+        <img src="../new images/hamburger-menu-gray.svg" alt="">
+      </div>
+			<div class="navcont">
+				<a class="nav-link" href="../index.html#proj">Projects</a>
+				<a class="nav-link" href="./credentials.html">Credentials</a>
+        <a class="nav-link" target="_blank" href="https://drive.google.com/file/d/12tLIciX9_9MfcCWidM5w7MTFOKJupebQ/view?usp=sharing">Resume</a>
+        <img class="cancel" src="../new images/cancel-48.png" alt="">
+			</div>
+		</nav>
+    <img class="hero-img" src="../new images/quizz/Frame 1129.png" alt="">
+  </header>
+    <main>
+    <h2 class="heading">About ‘Krayonnz’</h2>
+    <p  class="text">
+        Krayonnz is the company I interned at. As linked-in is a platform built focusing mainly on employees and employers, similarly Krayonnz is a social platform primarily developed for students where one can share there knowledge or learn from another peer. it offers students with various features like notes sharing, doubt asking, Klubs, Alumni networking, on demand sessions, etc... through its app and website. <br><br>
+        here’s a link to their website - <a target="_blank" href="https://www.krayonnz.com/">Krayonnz.com</a>   
+    </p>
+    <div class="big-container">
+        <h1 class="big-heading">
+            Assigned Task
+        </h1>
+        <p style="color: rgb(255, 255, 255); text-align:center; padding:0%" class="text">“ Design a Quiz feature for  Krayonnz app “</p>
+      </div>
+      <h2 class="heading">Follow up questions on assigned task</h2>
+      <ul>
+          <li><p class="text">Should the quiz have time limit</p></li>
+          <li><p class="text">Should the quiz have to be competitive</p></li>
+        <li><p class="text">How many options should a single question in quiz have</p></li>
+        <li><p class="text">Are users allowed to create and post quizzes or the quizzes are only posted by krayonnz site</p></li>
+        <li><p class="text">what should be the entry point for Quiz</p></li>
+    </ul>
+    <p class="text">According to given specifics I started designing the workflow of quiz feature.</p>
+    
+    <h2 class="heading">User Flow</h2>
+
+    <p class="text">Since the users were both Quiz creators and participants,<span class="highlight"> I designed a flow for each action ie.. quiz creation & participation.</span></p>
+    <p style="font-weight: 500; padding-bottom: 0" class="text">Quizz creation flow</p>
+    <p class="text">Since quiz creation flow required user to enter lot of input, I <span class="highlight"> divided that process into three different steps,</span> </p>
+    <ol style="margin:0 ;">
+        <li><p class="text">add quiz details</p></li>
+        <li><p class="text">add quiz questions</p></li>
+        <li><p class="text">preview quiz details and questions</p></li>
+    </ol>
+    <img src="../new images/quizz/Frame 1130.png" alt="">
+    <p style="font-weight: 500; padding-bottom: 0" class="text">Quizz participation flow</p>
+    <p class="text">Users opting to participate in the quiz will <span class="highlight"> initially be prompted with instructions and details of the quizz</span>. As they start to answer the quizz questions their <span class="highlight"> selected options will be  evaluated as right or wrong immediately, providing real-time feedback.</span> At the end, they'll receive their score and be ranked among other participants.</p>
+    <img src="../new images/quizz/Frame 1131 (1).png" alt="">
+
+    <h2 class="heading">Wire-Framing</h2>
+    <p class="text">Following are the wire-frames for the quiz flow.</p>
+    <img style="width: 80%; display:block; margin: 30px auto" src="../new images/quizz/wireframe (3).png" alt="">
+
+    <h2 class="heading">Usability test on low fidelity prototype</h2>
+    <p class="text">Usability test has been conducted with <span class="highlight"> existing app users from the Krayonnz’s student community as participants.</span><br>Goal - to find any possible pain points in different scenarios and to understand the ease of comprehensions of the designed flow.<br>Participants - 7</p>
+    <img  src="../new images/quizz/task list.png" alt="">
+
+    <h2 class="heading">User pain points recorded in usability testing and their solutions</h2>
+    
+    <div class="brainstorming-table">
+        <div class="brainstorming-column">
+          <p class="table-heading">
+            1 . Can’t skip back to skipped questions
+          </p>
+          <p class="text">During the quiz, some participants encountered the situation of skipping questions and later wanting to revisit them. However, the only way to access the skipped questions was by repeatedly pressing the 'BACK' button until reaching the desired question. </p>
+        </div>
+        <div class="brainstorming-column">
+          <p class="table-heading">
+            2 . Don’t know why a particular answer is right 
+          </p>
+          <p  class="text">Some of the quiz questions were related to subjects like mathematics, physics. However, when users were shown the right answer to a question they had answered incorrectly, they didn't  understood why that specific option was the correct one.</p>
+        </div>
+      </div>
+      <div class="brainstorming-table">
+        <div class="brainstorming-column">
+          <p class="table-heading">
+            Solution
+          </p>
+          <p style="font-weight: 400;padding-top:0px" class="text">“   An overview section of entire quiz displaying how many questions are answered and how many are skipped, using which a user can navigate directly to the questions they want will solve the above issue   “</p>
+        </div>
+        <div class="brainstorming-column">
+          <p class="table-heading">
+            Solution
+          </p>
+          <p style="font-weight: 400;padding-top:0px" class="text">“   Providing explanations for every correct answer, curated by the quiz creator, and displaying them when participants select the wrong option can effectively address above problem   ”</p>
+        </div>
+      </div>
+      <h2 class="heading">High fidelity mockups and prototype design</h2>
+    <p class="text">The wireframes were revised and updated based on the identified pain points and their corresponding solutions. based on those updated wireframes high-fidelity mock-ups were designed and then they were turned into prototype
+      <br>    link to design files -<a target="_blank" href="https://www.figma.com/file/v7LxJcFbwnXikDsun24m1M/Designs-linked-from-portfolio?type=design&node-id=19%3A1047&t=0x26Cdyl1B40vRlg-1">link</a></p>
+
+    
+    <p class="center-text"> 'Create quiz' interface</p>
+    <video class="proto-video1" style="width:100%; margin: 40px 0" src="../new images/quizz/20230522_191934.mp4" autoplay loop></video>
+    <p class="text">here's a link to 'create quizz' prototype - <a target="_blank" href="https://www.figma.com/proto/v7LxJcFbwnXikDsun24m1M/Designs-linked-from-portfolio?type=design&node-id=19-1980&scaling=min-zoom&page-id=17%3A696&starting-point-node-id=19%3A1980">link</a></p>
+
+    <p class="center-text"> 'participate quiz' interface</p>
+    <video class="proto-video2" style="width:100%; margin: 40px 0" src="../new images/quizz/20230522_194719.mp4" autoplay loop></video>
+    <p class="text">here's a link to 'participate quizz' prototype - <a target="_blank" href="https://www.figma.com/proto/v7LxJcFbwnXikDsun24m1M/Designs-linked-from-portfolio?type=design&node-id=19-1983&scaling=min-zoom&page-id=17%3A696&starting-point-node-id=19%3A1983&show-proto-sidebar=1">link</a></p>
+    
+    <p class="text">Here's a link to developed version of the quiz feature of krayonnz website - <a target="_blank" href="https://www.krayonnz.com/user/klub/63451c4dc4c2dd005889f6f3/quiz"> LINK</a></p>
+
+
+      
+    <footer>
+      <span>
+        <p class="footp">Thanks for stopping by!</p>
+        © 2023. All Rights Reserved to Bhargav V.
+      </span>
+      <span class="right-span">
+        <div class="foot-right">
+          <img src="../new images/devicon_linkedin.svg" alt="">
+          <a href="https://www.linkedin.com/in/bhargav-v-a16707138/" target="_blank">bhargav-a16707138 </a>
+        </div>
+        <div class="foot-right">
+          <img src="../new images/logos_google-gmail.svg" alt="">
+          <a href="mailto:Bv01496@gmail.com" target="_blank">Bv01496@gmail.com  </a>
+        </div>
+  
+      </span>
+    </footer>
+<script src="../js/project1.js"></script>
+<script src="../comman.js"></script>
+</body>
+</html>

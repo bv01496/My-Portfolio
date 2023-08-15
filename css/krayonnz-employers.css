@@ -1,0 +1,59 @@
+  .big-heading-container{
+    position: relative;
+    margin: 40px 0 25px 0;
+  }
+  .big-heading{
+    margin: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 52px;
+    color: #ffffff;
+      }
+  .bg-box{
+    right: 0;
+    z-index: -100;
+    height: 200px;
+    width: 100%;
+    background-color: #639FE7;
+    border-radius: 5px;
+  }
+  .big-heading-sub-container{
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .booklet-page-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
+  }
+  .booklet-page{
+    padding-top: 40px;
+  }
+  .center-text{
+    display: block;
+    text-align: center;
+    margin: 50px 30px 0 30px ;
+    font-weight: 600;
+    color: #5E5E5E;
+    font-size: 26px;
+  }
+  main > img {
+    display: block;
+    margin: 15px auto;
+    width: 100%;
+  }
+  .highlight {
+    background-color: #eae8f5;
+    background-size: 20%;
+  }

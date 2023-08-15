@@ -1,0 +1,53 @@
+  .big-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #639FE7;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin: 40px auto;
+    border-radius: 6px;
+  }
+  .big-heading{
+    margin: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 52px;
+    color: #ffffff;
+      }
+  li::marker{
+    color: #012B55;
+  }
+  li> .text{
+    padding-top: 0;
+  }
+  .highlight {
+    background-color: #e8ecf8;
+    background-size: 20%;
+  }
+  main > img{
+    display: block;
+    margin: 30px auto;
+  }
+
+  .brainstorming-table{
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  .brainstorming-table > *{
+    width: 47%;
+  }
+  .brainstorming-column{
+    display: flex;
+    flex-direction: column;  
+  }
+  .table-heading{
+  font-weight: 500;
+  font-size: 20px;
+  color: #8893CA;
+  }
+  
